@@ -27,12 +27,10 @@
             "value": ""
 	   }
 	},
-	"buildpacks": [
-		{
-			"url": "heroku/python"
-		}
-	]
-}
 
+     buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    }
 
 
