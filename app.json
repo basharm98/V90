@@ -28,9 +28,17 @@
 	   }
 	},
 
-    " buildpacks": 
-    {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
-    }
 
-
+		"buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
